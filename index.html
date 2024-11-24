@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wikipedia SearchApplication</title>
+  
+  <!--Added CSS File-->
+  <link rel="stylesheet" href="wikipedia.css">
+
+  <!--Added Bootstrap Files-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+
+
+
+
+
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 main_container">
+
+     
+
+               
+            <div class="fixed-top bg-white">
+              <div class="logo_container d-flex flex-row justify-content-center ">
+
+                <div class="wikipedia_heading_container d-flex flex-column justify-content-center">
+                  <div>
+                    <h1 class="h1 d-none d-md-block mr-3">Wikipedia</h1>
+                    <h1 class="h12 d-block d-md-none m-2">Wikipedia</h1>
+                  </div>
+                </div>
+  
+                <div class="wikipedia_image_container  d-flex flex-column justify-content-center">
+                  <div>
+                    <img class="wikipedia_img d-none d-md-block" src="wikipedia_images/wikipedia_bg.jpeg">
+                    <img class="wikipedia_img2 d-block d-md-none" src="wikipedia_images/wikipedia_bg.jpeg">
+                  </div>
+                </div>
+  
+               
+                 
+  
+              </div>
+                
+              <div class="d-flex flex-row p-2">
+                <div>
+                   <img class="logo_image" src="wikipedia_images/wikipedia_logo.jpeg">
+                </div>
+                <div class="w-100">
+                  <input placeholder="Type a keyword and press Enter to search" type="search" class="search_input w-100" id="searchInput" />
+                </div>
+              </div>
+
+            </div>
+
+
+  
+            
+
+
+            <div class="output_container">
+
+              <div class="search-results" id="searchResults"></div>
+             
+             
+            
+            </div>
+
+            <div class="d-none" id="spinner">
+              <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+            </div>
+
+
+            
+             
+           
+            
+            </div>
+
+
+
+           
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+  <!--Added JS File-->
+  <script src="wikipedia.js"></script>
+</body>
+</html>

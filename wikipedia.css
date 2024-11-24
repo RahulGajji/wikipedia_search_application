@@ -1,0 +1,83 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.logo_container {
+
+
+  padding: 20px;
+  background-color: white;
+
+ 
+}
+
+.wikipedia_img {
+  height: 200px;
+  width: 200px;
+}
+
+.wikipedia_img2 {
+  height: 100px;
+  width: 100px;
+}
+
+
+.h1{
+  color: rgb(102, 42, 42);
+  font-size: 30px;
+  font-weight: 800 !important;
+}
+
+.h12{
+  color: rgb(102, 42, 42);
+  font-size: 25px;
+  font-weight: 800;
+
+}
+
+.output_container {
+
+  
+  padding: 10px;
+  padding-top: 208px;
+  
+}
+
+
+.logo_image {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.main_container {
+  background-color: rgb(255, 255, 255);
+}
+
+.search_input {
+
+  
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+
+.result-item {
+  margin-bottom: 20px;
+}
+
+.result-title {
+  font-size: 18px;
+}
+
+.link-description {
+  color: #444444;
+  font-size: 12px;
+}
+
+.result-url {
+  color: #006621;
+  text-decoration: none;
+}
