@@ -49,6 +49,7 @@ body {
 .logo_image {
   height: 40px;
   margin-right: 10px;
+  padding-top: 7px;
 }
 
 .main_container {
@@ -61,6 +62,8 @@ body {
   border: 1px solid rgb(213, 213, 213);
   border-radius: 5px;
   margin-top: 4px;
+  height: 40px;
+  
 }
 
 
